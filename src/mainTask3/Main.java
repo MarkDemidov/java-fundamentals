@@ -11,8 +11,10 @@ public class Main {
         for (int i = 0; i < numbers; i++) {
             System.out.println((int) (0 + Math.random() * 100));
         }
-            for (int i = 0; i < numbers; i++) {
-            System.out.print((int)(0+Math.random()*100));
-        }}
+        for (int i = 0; i < numbers; i++) {
+            System.out.print((int) (0 + Math.random() * 100) + " ");
+        }
+
     }
+}
 
